@@ -1,0 +1,20 @@
+import time;
+import calendar
+localtime=time.localtime(time.time())
+
+print "local:",localtime 
+formattime=time.asctime(time.localtime(time.time()))
+print "formatted time:",formattime
+
+cal=calendar.month(2018,1)
+print "here is the calendar"
+print cal 
+
+calendaryear=calendar.isleap(2014)
+print calendaryear
+datetype=calendar.weekday(2018,7,6)
+print datetype 
+
+cal=calendar.month(2018,1)
+print "here is the calendar"
+print cal
